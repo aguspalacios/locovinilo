@@ -19,7 +19,32 @@ body{
 }
 
 #maincontainer{
-    height: 500px;
-    padding:30px;
-    margin-top:40px;
+    padding:5px 30px 5px 30px;
+    margin-top:10px;
 }
+
+
+.grow {
+    /*padding: 5px 5px 5px 5px;
+    border-radius: 10px;*/
+    height: 90%;
+    /*margin: 5px 1% 5px 1%;*/
+    float: left;
+    position: relative;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    text-align: center;
+    overflow: hidden;
+  }
+  .grow:hover {
+    height: 100%;
+  }
+
+  .grande{
+    margin-top:60px;
+}
+
+h5{
+    font-size: 110%;
+}
+
